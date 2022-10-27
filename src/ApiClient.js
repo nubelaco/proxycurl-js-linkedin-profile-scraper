@@ -33,11 +33,11 @@ class ApiClient {
      * Overrides the default value set in spec file if present
      * @param {String} basePath
      */
-    constructor(basePath = 'https://proxycurl-web.127.0.0.1.nip.io:5002/proxycurl-dev') {
+    constructor(basePath = 'https://nubela.co/proxycurl') {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
-         * @default https://proxycurl-web.127.0.0.1.nip.io:5002/proxycurl-dev
+         * @default https://nubela.co/proxycurl
          */
         this.basePath = basePath.replace(/\/+$/, '');
 
@@ -593,11 +593,11 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "https://proxycurl-web.127.0.0.1.nip.io:5002/proxycurl-dev",
+              'url': "https://nubela.co/proxycurl",
               'description': "With SSL Proxycurl Server",
             },
             {
-              'url': "http://proxycurl-web.127.0.0.1.nip.io:5002/proxycurl-dev",
+              'url': "http://nubela.co/proxycurl",
               'description': "Without SSL Proxycurl Server",
             }
       ];

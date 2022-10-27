@@ -1,6 +1,6 @@
 # ProxycurlApi.JobsAPIApi
 
-All URIs are relative to *https://proxycurl-web.127.0.0.1.nip.io:5002/proxycurl-dev*
+All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
