@@ -4,12 +4,12 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**companyLookupEndpoint**](CompanyAPIApi.md#companyLookupEndpoint) | **GET** /api/linkedin/company/resolve | 
-[**companyProfileEndpoint**](CompanyAPIApi.md#companyProfileEndpoint) | **GET** /api/linkedin/company | 
-[**companyProfilePictureEndpoint**](CompanyAPIApi.md#companyProfilePictureEndpoint) | **GET** /api/linkedin/company/profile-picture | 
-[**employeeCountEndpoint**](CompanyAPIApi.md#employeeCountEndpoint) | **GET** /api/linkedin/company/employees/count/ | 
-[**employeeListingEndpoint**](CompanyAPIApi.md#employeeListingEndpoint) | **GET** /api/linkedin/company/employees/ | 
-[**employeeSearchAPIEndpoint**](CompanyAPIApi.md#employeeSearchAPIEndpoint) | **GET** /api/linkedin/company/employee/search/ | 
+[**companyLookupEndpoint**](CompanyAPIApi.md#companyLookupEndpoint) | **GET** /api/linkedin/company/resolve | Company Lookup Endpoint
+[**companyProfileEndpoint**](CompanyAPIApi.md#companyProfileEndpoint) | **GET** /api/linkedin/company | Company Profile Endpoint
+[**companyProfilePictureEndpoint**](CompanyAPIApi.md#companyProfilePictureEndpoint) | **GET** /api/linkedin/company/profile-picture | Company Profile Picture Endpoint
+[**employeeCountEndpoint**](CompanyAPIApi.md#employeeCountEndpoint) | **GET** /api/linkedin/company/employees/count/ | Employee Count Endpoint
+[**employeeListingEndpoint**](CompanyAPIApi.md#employeeListingEndpoint) | **GET** /api/linkedin/company/employees/ | Employee Listing Endpoint
+[**employeeSearchAPIEndpoint**](CompanyAPIApi.md#employeeSearchAPIEndpoint) | **GET** /api/linkedin/company/employee/search/ | Employee Search API Endpoint
 
 
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 > UrlResult2 companyLookupEndpoint(opts)
 
-
+Company Lookup Endpoint
 
 Cost: 2 credits / successful request. Resolve Company LinkedIn Profile from company name,     domain name and location.
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 
 > LinkedinCompany companyProfileEndpoint(url, opts)
 
-
+Company Profile Endpoint
 
 Cost: 1 credit / successful request. Get structured data of a Company Profile
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 > ProfilePicture companyProfilePictureEndpoint(linkedinCompanyProfileUrl)
 
-
+Company Profile Picture Endpoint
 
 Cost: 0 credit / successful request. Get the profile picture of a company.  Profile pictures are served from cached company profiles found within [LinkDB](https://nubela.co/proxycurl/linkdb). If the profile does not exist within [LinkDB](https://nubela.co/proxycurl/linkdb), then the API will return a &#x60;404&#x60; status code.
 
@@ -186,9 +186,9 @@ Name | Type | Description  | Notes
 
 > EmployeeCount employeeCountEndpoint(url, opts)
 
+Employee Count Endpoint
 
-
-Cost: 1 credit / successful request. Get a number of total employees of a Company.  Get an employee count of this company from various sources.
+Test description
 
 ### Example
 
@@ -241,7 +241,7 @@ Name | Type | Description  | Notes
 
 > EmployeeList employeeListingEndpoint(url, opts)
 
-
+Employee Listing Endpoint
 
 Cost: 3 credits / employee returned. Get a list of employees of a Company.  This API endpoint is limited by LinkDB which is populated with profiles in the US, UK, Canada, Israel, Australia, Ireland, New Zealand and Singapore. As such, this endpoint is best used to list employees working in companies based in those locations only.
 
@@ -302,7 +302,7 @@ Name | Type | Description  | Notes
 
 > EmployeeList employeeSearchAPIEndpoint(linkedinCompanyProfileUrl, keywordRegex, opts)
 
-
+Employee Search API Endpoint
 
 Cost: 10 credits / successful request. Search employees of a target by their job title.
 

@@ -4,10 +4,10 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**personLookupEndpoint**](PeopleAPIApi.md#personLookupEndpoint) | **GET** /api/linkedin/profile/resolve | 
-[**personProfileEndpoint**](PeopleAPIApi.md#personProfileEndpoint) | **GET** /api/v2/linkedin | 
-[**personProfilePictureEndpoint**](PeopleAPIApi.md#personProfilePictureEndpoint) | **GET** /api/linkedin/person/profile-picture | 
-[**roleLookupEndpoint**](PeopleAPIApi.md#roleLookupEndpoint) | **GET** /api/find/company/role | 
+[**personLookupEndpoint**](PeopleAPIApi.md#personLookupEndpoint) | **GET** /api/linkedin/profile/resolve | Person Lookup Endpoint
+[**personProfileEndpoint**](PeopleAPIApi.md#personProfileEndpoint) | **GET** /api/v2/linkedin | Person Profile Endpoint
+[**personProfilePictureEndpoint**](PeopleAPIApi.md#personProfilePictureEndpoint) | **GET** /api/linkedin/person/profile-picture | Person Profile Picture Endpoint
+[**roleLookupEndpoint**](PeopleAPIApi.md#roleLookupEndpoint) | **GET** /api/find/company/role | Role Lookup Endpoint
 
 
 
@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 > UrlResult1 personLookupEndpoint(companyDomain, firstName, opts)
 
-
+Person Lookup Endpoint
 
 Cost: 2 credits / successful request. Resolve LinkedIn Profile
 
@@ -74,7 +74,7 @@ Name | Type | Description  | Notes
 
 > PersonEndpointResponse personProfileEndpoint(url, fallbackToCache, opts)
 
-
+Person Profile Endpoint
 
 Cost: 1 credit / successful request. Get structured data of a Personal Profile
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 > ProfilePicture personProfilePictureEndpoint(linkedinPersonProfileUrl)
 
-
+Person Profile Picture Endpoint
 
 Cost: 0 credit / successful request. Get the profile picture of a person.  Profile pictures are served from cached people profiles found within [LinkDB](https://nubela.co/proxycurl/linkdb). If the profile does not exist within [LinkDB](https://nubela.co/proxycurl/linkdb), then the API will return a &#x60;404&#x60; status code.
 
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 > RoleSearchResult roleLookupEndpoint(role, companyName)
 
-
+Role Lookup Endpoint
 
 Cost: 3 credits / successful request. Finds the closest (person) profile with a given role in a Company. For example, you can use this endpoint to find the \&quot;CTO\&quot; of \&quot;Apple\&quot;. This API endpoint returns only one result that is the closest match.  There is also a [role search](https://nubela.co/blog/search-employees-with-employee-listing-api/) under the Employee Listing Endpoint if you require:  * precision on the target company * a list of employees that matches a role (instead of one result).
 

@@ -128,26 +128,26 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ProxycurlApi.CompanyAPIApi* | [**companyLookupEndpoint**](docs/CompanyAPIApi.md#companyLookupEndpoint) | **GET** /api/linkedin/company/resolve | 
-*ProxycurlApi.CompanyAPIApi* | [**companyProfileEndpoint**](docs/CompanyAPIApi.md#companyProfileEndpoint) | **GET** /api/linkedin/company | 
-*ProxycurlApi.CompanyAPIApi* | [**companyProfilePictureEndpoint**](docs/CompanyAPIApi.md#companyProfilePictureEndpoint) | **GET** /api/linkedin/company/profile-picture | 
-*ProxycurlApi.CompanyAPIApi* | [**employeeCountEndpoint**](docs/CompanyAPIApi.md#employeeCountEndpoint) | **GET** /api/linkedin/company/employees/count/ | 
-*ProxycurlApi.CompanyAPIApi* | [**employeeListingEndpoint**](docs/CompanyAPIApi.md#employeeListingEndpoint) | **GET** /api/linkedin/company/employees/ | 
-*ProxycurlApi.CompanyAPIApi* | [**employeeSearchAPIEndpoint**](docs/CompanyAPIApi.md#employeeSearchAPIEndpoint) | **GET** /api/linkedin/company/employee/search/ | 
-*ProxycurlApi.ContactAPIApi* | [**disposableEmailAddressCheckEndpoint**](docs/ContactAPIApi.md#disposableEmailAddressCheckEndpoint) | **GET** /api/disposable-email | 
-*ProxycurlApi.ContactAPIApi* | [**personalContactNumberLookupEndpoint**](docs/ContactAPIApi.md#personalContactNumberLookupEndpoint) | **GET** /api/contact-api/personal-contact | 
-*ProxycurlApi.ContactAPIApi* | [**personalEmailLookupEndpoint**](docs/ContactAPIApi.md#personalEmailLookupEndpoint) | **GET** /api/contact-api/personal-email | 
-*ProxycurlApi.ContactAPIApi* | [**reverseWorkEmailLookupEndpoint**](docs/ContactAPIApi.md#reverseWorkEmailLookupEndpoint) | **GET** /api/linkedin/profile/resolve/email | 
-*ProxycurlApi.ContactAPIApi* | [**workEmailLookupEndpoint**](docs/ContactAPIApi.md#workEmailLookupEndpoint) | **GET** /api/linkedin/profile/email | 
-*ProxycurlApi.JobsAPIApi* | [**jobProfileEndpoint**](docs/JobsAPIApi.md#jobProfileEndpoint) | **GET** /api/linkedin/job | 
-*ProxycurlApi.JobsAPIApi* | [**jobsListingEndpoint**](docs/JobsAPIApi.md#jobsListingEndpoint) | **GET** /api/v2/linkedin/company/job | 
-*ProxycurlApi.MetaAPIApi* | [**viewCreditBalanceEndpoint**](docs/MetaAPIApi.md#viewCreditBalanceEndpoint) | **GET** /api/credit-balance | 
-*ProxycurlApi.PeopleAPIApi* | [**personLookupEndpoint**](docs/PeopleAPIApi.md#personLookupEndpoint) | **GET** /api/linkedin/profile/resolve | 
-*ProxycurlApi.PeopleAPIApi* | [**personProfileEndpoint**](docs/PeopleAPIApi.md#personProfileEndpoint) | **GET** /api/v2/linkedin | 
-*ProxycurlApi.PeopleAPIApi* | [**personProfilePictureEndpoint**](docs/PeopleAPIApi.md#personProfilePictureEndpoint) | **GET** /api/linkedin/person/profile-picture | 
-*ProxycurlApi.PeopleAPIApi* | [**roleLookupEndpoint**](docs/PeopleAPIApi.md#roleLookupEndpoint) | **GET** /api/find/company/role | 
-*ProxycurlApi.RevealAPIApi* | [**revealEndpoint**](docs/RevealAPIApi.md#revealEndpoint) | **GET** /api/reveal/company | 
-*ProxycurlApi.SchoolAPIApi* | [**schoolProfileEndpoint**](docs/SchoolAPIApi.md#schoolProfileEndpoint) | **GET** /api/linkedin/school | 
+*ProxycurlApi.CompanyAPIApi* | [**companyLookupEndpoint**](docs/CompanyAPIApi.md#companyLookupEndpoint) | **GET** /api/linkedin/company/resolve | Company Lookup Endpoint
+*ProxycurlApi.CompanyAPIApi* | [**companyProfileEndpoint**](docs/CompanyAPIApi.md#companyProfileEndpoint) | **GET** /api/linkedin/company | Company Profile Endpoint
+*ProxycurlApi.CompanyAPIApi* | [**companyProfilePictureEndpoint**](docs/CompanyAPIApi.md#companyProfilePictureEndpoint) | **GET** /api/linkedin/company/profile-picture | Company Profile Picture Endpoint
+*ProxycurlApi.CompanyAPIApi* | [**employeeCountEndpoint**](docs/CompanyAPIApi.md#employeeCountEndpoint) | **GET** /api/linkedin/company/employees/count/ | Employee Count Endpoint
+*ProxycurlApi.CompanyAPIApi* | [**employeeListingEndpoint**](docs/CompanyAPIApi.md#employeeListingEndpoint) | **GET** /api/linkedin/company/employees/ | Employee Listing Endpoint
+*ProxycurlApi.CompanyAPIApi* | [**employeeSearchAPIEndpoint**](docs/CompanyAPIApi.md#employeeSearchAPIEndpoint) | **GET** /api/linkedin/company/employee/search/ | Employee Search API Endpoint
+*ProxycurlApi.ContactAPIApi* | [**disposableEmailAddressCheckEndpoint**](docs/ContactAPIApi.md#disposableEmailAddressCheckEndpoint) | **GET** /api/disposable-email | Disposable Email Address Check Endpoint
+*ProxycurlApi.ContactAPIApi* | [**personalContactNumberLookupEndpoint**](docs/ContactAPIApi.md#personalContactNumberLookupEndpoint) | **GET** /api/contact-api/personal-contact | Personal Contact Number Lookup Endpoint
+*ProxycurlApi.ContactAPIApi* | [**personalEmailLookupEndpoint**](docs/ContactAPIApi.md#personalEmailLookupEndpoint) | **GET** /api/contact-api/personal-email | Personal Email Lookup Endpoint
+*ProxycurlApi.ContactAPIApi* | [**reverseWorkEmailLookupEndpoint**](docs/ContactAPIApi.md#reverseWorkEmailLookupEndpoint) | **GET** /api/linkedin/profile/resolve/email | Reverse Work Email Lookup Endpoint
+*ProxycurlApi.ContactAPIApi* | [**workEmailLookupEndpoint**](docs/ContactAPIApi.md#workEmailLookupEndpoint) | **GET** /api/linkedin/profile/email | Work Email Lookup Endpoint
+*ProxycurlApi.JobsAPIApi* | [**jobProfileEndpoint**](docs/JobsAPIApi.md#jobProfileEndpoint) | **GET** /api/linkedin/job | Job Profile Endpoint
+*ProxycurlApi.JobsAPIApi* | [**jobsListingEndpoint**](docs/JobsAPIApi.md#jobsListingEndpoint) | **GET** /api/v2/linkedin/company/job | Jobs Listing Endpoint
+*ProxycurlApi.MetaAPIApi* | [**viewCreditBalanceEndpoint**](docs/MetaAPIApi.md#viewCreditBalanceEndpoint) | **GET** /api/credit-balance | View Credit Balance Endpoint
+*ProxycurlApi.PeopleAPIApi* | [**personLookupEndpoint**](docs/PeopleAPIApi.md#personLookupEndpoint) | **GET** /api/linkedin/profile/resolve | Person Lookup Endpoint
+*ProxycurlApi.PeopleAPIApi* | [**personProfileEndpoint**](docs/PeopleAPIApi.md#personProfileEndpoint) | **GET** /api/v2/linkedin | Person Profile Endpoint
+*ProxycurlApi.PeopleAPIApi* | [**personProfilePictureEndpoint**](docs/PeopleAPIApi.md#personProfilePictureEndpoint) | **GET** /api/linkedin/person/profile-picture | Person Profile Picture Endpoint
+*ProxycurlApi.PeopleAPIApi* | [**roleLookupEndpoint**](docs/PeopleAPIApi.md#roleLookupEndpoint) | **GET** /api/find/company/role | Role Lookup Endpoint
+*ProxycurlApi.RevealAPIApi* | [**revealEndpoint**](docs/RevealAPIApi.md#revealEndpoint) | **GET** /api/reveal/company | Reveal Endpoint
+*ProxycurlApi.SchoolAPIApi* | [**schoolProfileEndpoint**](docs/SchoolAPIApi.md#schoolProfileEndpoint) | **GET** /api/linkedin/school | School Profile Endpoint
 
 
 ## Documentation for Models

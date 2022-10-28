@@ -4,11 +4,11 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**disposableEmailAddressCheckEndpoint**](ContactAPIApi.md#disposableEmailAddressCheckEndpoint) | **GET** /api/disposable-email | 
-[**personalContactNumberLookupEndpoint**](ContactAPIApi.md#personalContactNumberLookupEndpoint) | **GET** /api/contact-api/personal-contact | 
-[**personalEmailLookupEndpoint**](ContactAPIApi.md#personalEmailLookupEndpoint) | **GET** /api/contact-api/personal-email | 
-[**reverseWorkEmailLookupEndpoint**](ContactAPIApi.md#reverseWorkEmailLookupEndpoint) | **GET** /api/linkedin/profile/resolve/email | 
-[**workEmailLookupEndpoint**](ContactAPIApi.md#workEmailLookupEndpoint) | **GET** /api/linkedin/profile/email | 
+[**disposableEmailAddressCheckEndpoint**](ContactAPIApi.md#disposableEmailAddressCheckEndpoint) | **GET** /api/disposable-email | Disposable Email Address Check Endpoint
+[**personalContactNumberLookupEndpoint**](ContactAPIApi.md#personalContactNumberLookupEndpoint) | **GET** /api/contact-api/personal-contact | Personal Contact Number Lookup Endpoint
+[**personalEmailLookupEndpoint**](ContactAPIApi.md#personalEmailLookupEndpoint) | **GET** /api/contact-api/personal-email | Personal Email Lookup Endpoint
+[**reverseWorkEmailLookupEndpoint**](ContactAPIApi.md#reverseWorkEmailLookupEndpoint) | **GET** /api/linkedin/profile/resolve/email | Reverse Work Email Lookup Endpoint
+[**workEmailLookupEndpoint**](ContactAPIApi.md#workEmailLookupEndpoint) | **GET** /api/linkedin/profile/email | Work Email Lookup Endpoint
 
 
 
@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 > DisposableEmail disposableEmailAddressCheckEndpoint(email)
 
-
+Disposable Email Address Check Endpoint
 
 Cost: 0 credit / request. Given an email address, checks if the email address belongs to a disposable email service.
 
@@ -65,7 +65,7 @@ Name | Type | Description  | Notes
 
 > PDLPhoneNumberResult personalContactNumberLookupEndpoint(linkedinProfileUrl)
 
-
+Personal Contact Number Lookup Endpoint
 
 Cost: 1 credit / contact number returned. Given an LinkedIn profile, returns a list of personal contact numbers belonging to this identity.
 
@@ -114,7 +114,7 @@ Name | Type | Description  | Notes
 
 > PDLEmailResult personalEmailLookupEndpoint(linkedinProfileUrl, opts)
 
-
+Personal Email Lookup Endpoint
 
 Cost: 1 credit / email returned. Given an LinkedIn profile, returns a list of personal emails belonging to this identity. Emails are verified to be deliverable.
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 
 > UrlResult reverseWorkEmailLookupEndpoint(workEmail)
 
-
+Reverse Work Email Lookup Endpoint
 
 Cost: 3 credits / successful request. Resolve LinkedIn Profile from a work email address
 
@@ -216,7 +216,7 @@ Name | Type | Description  | Notes
 
 > ExtractionEmailResult workEmailLookupEndpoint(linkedinProfileUrl, opts)
 
-
+Work Email Lookup Endpoint
 
 Cost: 3 credits / request. Lookup work email address of a LinkedIn Person Profile.  Email addresses returned are verified to not be role-based or catch-all emails. Email addresses returned by our API endpoint come with a 95+% deliverability guarantee  **Endpoint behavior**  *This endpoint* **_may not_** *return results immediately.*  If you provided a webhook in your request parameter, our application will call your webhook with the result once. See &#x60;Webhook request&#x60; below.
 

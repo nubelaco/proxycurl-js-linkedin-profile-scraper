@@ -4,8 +4,8 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**jobProfileEndpoint**](JobsAPIApi.md#jobProfileEndpoint) | **GET** /api/linkedin/job | 
-[**jobsListingEndpoint**](JobsAPIApi.md#jobsListingEndpoint) | **GET** /api/v2/linkedin/company/job | 
+[**jobProfileEndpoint**](JobsAPIApi.md#jobProfileEndpoint) | **GET** /api/linkedin/job | Job Profile Endpoint
+[**jobsListingEndpoint**](JobsAPIApi.md#jobsListingEndpoint) | **GET** /api/v2/linkedin/company/job | Jobs Listing Endpoint
 
 
 
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 > LinkedinJob jobProfileEndpoint(url)
 
-
+Job Profile Endpoint
 
 Cost: 2 credits / successful request. Get structured data of a LinkedIn Job Profile
 
@@ -62,7 +62,7 @@ Name | Type | Description  | Notes
 
 > JobListPage jobsListingEndpoint(searchId)
 
-
+Jobs Listing Endpoint
 
 Cost: 2 credits / successful request. List jobs posted by a company on LinkedIn
 
