@@ -4,15 +4,13 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**schoolProfileEndpoint**](SchoolAPIApi.md#schoolProfileEndpoint) | **GET** /api/linkedin/school | School Profile Endpoint
+[**schoolProfileEndpoint**](SchoolAPIApi.md#schoolProfileEndpoint) | **GET** /api/linkedin/school | Cost: 1 credit / successful request. Get structured data of a LinkedIn School Profile
 
 
 
 ## schoolProfileEndpoint
 
 > LinkedinSchool schoolProfileEndpoint(url, opts)
-
-School Profile Endpoint
 
 Cost: 1 credit / successful request. Get structured data of a LinkedIn School Profile
 

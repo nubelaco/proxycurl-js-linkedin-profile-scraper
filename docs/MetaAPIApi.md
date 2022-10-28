@@ -4,15 +4,13 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**viewCreditBalanceEndpoint**](MetaAPIApi.md#viewCreditBalanceEndpoint) | **GET** /api/credit-balance | View Credit Balance Endpoint
+[**viewCreditBalanceEndpoint**](MetaAPIApi.md#viewCreditBalanceEndpoint) | **GET** /api/credit-balance | Cost: 0 credit / successful request. Get your current credit(s) balance
 
 
 
 ## viewCreditBalanceEndpoint
 
 > CreditBalance viewCreditBalanceEndpoint()
-
-View Credit Balance Endpoint
 
 Cost: 0 credit / successful request. Get your current credit(s) balance
 

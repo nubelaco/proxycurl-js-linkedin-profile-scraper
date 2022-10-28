@@ -4,15 +4,13 @@ All URIs are relative to *https://nubela.co/proxycurl*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**revealEndpoint**](RevealAPIApi.md#revealEndpoint) | **GET** /api/reveal/company | Reveal Endpoint
+[**revealEndpoint**](RevealAPIApi.md#revealEndpoint) | **GET** /api/reveal/company | Cost: 2 credits / successful request. Deanonymize an IPv4 address and associate the Company behind the IPv4 address.
 
 
 
 ## revealEndpoint
 
 > CompanyReveal revealEndpoint(ip, opts)
-
-Reveal Endpoint
 
 Cost: 2 credits / successful request. Deanonymize an IPv4 address and associate the Company behind the IPv4 address.
 
