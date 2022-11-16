@@ -1,6 +1,6 @@
 # `proxycurl-js` - The official Javascript/NodeJS client for Proxycurl API to scrape and enrich LinkedIn profiles
 
-* [What is Proxycurl?](#what-is-proxycurl-)
+* [What is Proxycurl?](#what-is-proxycurl)
 * [Installation](#installation)
 * [Getting Started](#getting-started)
 * [Documentation for API Endpoints](#documentation-for-api-endpoints)
