@@ -18,7 +18,7 @@ Cost: 2 credits / successful request. Get structured data of a LinkedIn Job Prof
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -65,7 +65,7 @@ Cost: 2 credits / successful request. List jobs posted by a company on LinkedIn
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

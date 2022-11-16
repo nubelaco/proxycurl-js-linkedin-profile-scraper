@@ -20,7 +20,7 @@ Cost: 2 credits / successful request. Resolve LinkedIn Profile
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -77,7 +77,7 @@ Cost: 1 credit / successful request. Get structured data of a Personal Profile
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -146,7 +146,7 @@ Cost: 0 credit / successful request. Get the profile picture of a person.  Profi
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -193,7 +193,7 @@ Cost: 3 credits / successful request. Finds the closest (person) profile with a 
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

@@ -17,7 +17,7 @@ Cost: 0 credit / successful request. Get your current credit(s) balance
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl_api';
+import ProxycurlApi from 'proxycurl-js';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

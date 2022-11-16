@@ -27,12 +27,10 @@ Visit [Proxycurl's website](https://nubela.co/proxycurl) for more details.
 
 #### npm
 
-To publish the library as a [npm](https://www.npmjs.com/), please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
-
-Then install it via:
+Install it via:
 
 ```shell
-npm install proxycurl_api --save
+npm install proxycurl-js --save
 ```
 
 Finally, you need to build the module:
@@ -55,7 +53,7 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-To use the link you just defined in your project, switch to the directory you want to use your proxycurl_api from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your proxycurl-js from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
@@ -111,7 +109,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var ProxycurlApi = require('proxycurl_api');
+var ProxycurlApi = require('proxycurl-js');
 
 var defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
