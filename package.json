@@ -1,6 +1,6 @@
 {
   "name": "proxycurl-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The official Javascript/NodeJS client for Proxycurl API to scrape and enrich LinkedIn profiles",
   "license": "ISC",
   "main": "dist/index.js",
