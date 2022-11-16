@@ -17,7 +17,7 @@ Cost: 2 credits / successful request. Deanonymize an IPv4 address and associate 
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

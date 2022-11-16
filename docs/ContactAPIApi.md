@@ -21,7 +21,7 @@ Cost: 0 credit / request. Given an email address, checks if the email address be
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -68,7 +68,7 @@ Cost: 1 credit / contact number returned. Given an LinkedIn profile, returns a l
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -115,7 +115,7 @@ Cost: 1 credit / email returned. Given an LinkedIn profile, returns a list of pe
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -166,7 +166,7 @@ Cost: 3 credits / successful request. Resolve LinkedIn Profile from a work email
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -213,7 +213,7 @@ Cost: 3 credits / request. Lookup work email address of a LinkedIn Person Profil
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

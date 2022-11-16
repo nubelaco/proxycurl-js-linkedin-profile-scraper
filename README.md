@@ -1,4 +1,4 @@
-# `proxycurl-js` - The official Javascript/NodeJS client for Proxycurl API to scrape and enrich LinkedIn profiles
+# `proxycurl-js-linkedin-profile-scraper` - The official Javascript/NodeJS client for Proxycurl API to scrape and enrich LinkedIn profiles
 
 * [What is Proxycurl?](#what-is-proxycurl)
 * [Installation](#installation)
@@ -30,7 +30,7 @@ Visit [Proxycurl's website](https://nubela.co/proxycurl) for more details.
 Install it via:
 
 ```shell
-npm install proxycurl-js --save
+npm install proxycurl-js-linkedin-profile-scraper
 ```
 
 Finally, you need to build the module:
@@ -53,7 +53,7 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-To use the link you just defined in your project, switch to the directory you want to use your proxycurl-js from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your proxycurl-js-linkedin-profile-scraper from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
@@ -109,7 +109,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var ProxycurlApi = require('proxycurl-js');
+var ProxycurlApi = require('proxycurl-js-linkedin-profile-scraper');
 
 var defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth

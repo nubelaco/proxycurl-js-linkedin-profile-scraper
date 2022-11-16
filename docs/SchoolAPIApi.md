@@ -17,7 +17,7 @@ Cost: 1 credit / successful request. Get structured data of a LinkedIn School Pr
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];

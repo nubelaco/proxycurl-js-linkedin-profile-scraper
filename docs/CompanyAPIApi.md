@@ -22,7 +22,7 @@ Cost: 2 credits / successful request. Resolve Company LinkedIn Profile from comp
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -75,7 +75,7 @@ Cost: 1 credit / successful request. Get structured data of a Company Profile
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -138,7 +138,7 @@ Cost: 0 credit / successful request. Get the profile picture of a company.  Prof
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -185,7 +185,7 @@ Cost: 1 credit / successful request. Get a number of total employees of a Compan
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -238,7 +238,7 @@ Cost: 3 credits / employee returned. Get a list of employees of a Company.  This
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
@@ -297,7 +297,7 @@ Cost: 10 credits / successful request. Search employees of a target by their job
 ### Example
 
 ```javascript
-import ProxycurlApi from 'proxycurl-js';
+import ProxycurlApi from 'proxycurl-js-linkedin-profile-scraper';
 let defaultClient = ProxycurlApi.ApiClient.instance;
 // Configure Bearer access token for authorization: BearerAuth
 let BearerAuth = defaultClient.authentications['BearerAuth'];
