@@ -238,7 +238,6 @@ Class | Method | HTTP request | Description
  - [ProxycurlApi.UrlResult1](docs/UrlResult1.md)
  - [ProxycurlApi.UrlResult2](docs/UrlResult2.md)
  - [ProxycurlApi.VolunteeringExperience](docs/VolunteeringExperience.md)
- - [ProxycurlApi.VolunteeringExperience](docs/VolunteeringExperience.md)
  - [ProxycurlApi.PersonSearch](docs/PersonSearch.md)
  - [ProxycurlApi.PersonSearchResult](docs/PersonSearchResult.md)
  - [ProxycurlApi.CompanySearch](docs/CompanySearch.md)
