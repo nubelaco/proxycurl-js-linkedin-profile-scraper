@@ -93,6 +93,7 @@ import MetaAPIApi from './api/MetaAPIApi';
 import PeopleAPIApi from './api/PeopleAPIApi';
 import RevealAPIApi from './api/RevealAPIApi';
 import SchoolAPIApi from './api/SchoolAPIApi';
+import SearchAPIApi from './api/SearchAPIApi';
 
 
 /**
@@ -611,5 +612,11 @@ export {
     * The SchoolAPIApi service constructor.
     * @property {module:api/SchoolAPIApi}
     */
-    SchoolAPIApi
+    SchoolAPIApi,
+
+    /**
+    * The SearchAPIApi service constructor.
+    * @property {module:api/SearchAPIApi}
+    */
+    SearchAPIApi
 };
