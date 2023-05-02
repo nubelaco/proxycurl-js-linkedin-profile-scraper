@@ -159,6 +159,8 @@ Class | Method | HTTP request | Description
 *ProxycurlApi.PeopleAPIApi* | [**roleLookupEndpoint**](docs/PeopleAPIApi.md#roleLookupEndpoint) | **GET** /api/find/company/role | Cost: 3 credits / successful request. Finds the closest (person) profile with a given role in a Company. For example, you can use this endpoint to find the \&quot;CTO\&quot; of \&quot;Apple\&quot;. This API endpoint returns only one result that is the closest match.  There is also a [role search](https://nubela.co/blog/search-employees-with-employee-listing-api/) under the Employee Listing Endpoint if you require:  * precision on the target company * a list of employees that matches a role (instead of one result).
 *ProxycurlApi.RevealAPIApi* | [**revealEndpoint**](docs/RevealAPIApi.md#revealEndpoint) | **GET** /api/reveal/company | Cost: 2 credits / successful request. Deanonymize an IPv4 address and associate the Company behind the IPv4 address.
 *ProxycurlApi.SchoolAPIApi* | [**schoolProfileEndpoint**](docs/SchoolAPIApi.md#schoolProfileEndpoint) | **GET** /api/linkedin/school | Cost: 1 credit / successful request. Get structured data of a LinkedIn School Profile
+*ProxycurlApi.SearchAPIApi* | [**personProfileEndpoint**](docs/SearchAPIApi.md#personProfileEndpoint) | **GET** /api/search/person | Cost: 35 credit / successful request base charge + 10 credits / result returned. (Extra charges might be incurred if premium optional parameters are used. Please read the description of the parameters that you intend to use). Base charge does not apply when using a `next_page` URL.Search Profile
+*ProxycurlApi.SearchAPIApi* | [**companyProfileEndpoint**](docs/SearchAPIApi.md#companyProfileEndpoint) | **GET** /api/search/company | Cost: 35 credit / successful request base charge + 10 credits / result returned. (Extra charges might be incurred if premium optional parameters are used. Please read the description of the parameters that you intend to use). Base charge does not apply when using a `next_page` URL.Search Profile
 
 
 ## Documentation for Models
@@ -236,6 +238,11 @@ Class | Method | HTTP request | Description
  - [ProxycurlApi.UrlResult1](docs/UrlResult1.md)
  - [ProxycurlApi.UrlResult2](docs/UrlResult2.md)
  - [ProxycurlApi.VolunteeringExperience](docs/VolunteeringExperience.md)
+ - [ProxycurlApi.VolunteeringExperience](docs/VolunteeringExperience.md)
+ - [ProxycurlApi.PersonSearch](docs/PersonSearch.md)
+ - [ProxycurlApi.PersonSearchResult](docs/PersonSearchResult.md)
+ - [ProxycurlApi.CompanySearch](docs/CompanySearch.md)
+ - [ProxycurlApi.CompanySearchResult](docs/CompanySearchResult.md)
 
 
 ## Documentation for Authorization
